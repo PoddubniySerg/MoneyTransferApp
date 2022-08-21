@@ -1,0 +1,46 @@
+*.idea/
+target/
+files/log.txt
+files/transactions.json
+Server/src/main/resources/files/log.txt
+Server/src/main/resources/files/transactions.json
+
+!.mvn/wrapper/maven-wrapper.jar
+!WebClient/project/src/main/**/target/
+!WebClient/project/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!WebClient/project/src/main/**/build/
+!WebClient/project/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+/Server/src/main/resources/files/log.txt
+/Server/src/main/resources/files/transactions.json
